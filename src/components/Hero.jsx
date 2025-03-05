@@ -7,7 +7,7 @@ export default function Hero() {
         <div className='flex flex-col justify-between w-10/11 sm:w-4/5 lg:w-1/2 md:p-20 py-10'>
             <h2 className='text-5xl lg:text-[52px] xl:text-6xl font-semibold mb-5'>Try Salesforce Starter Suite for free.</h2>
             <p className='mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eligendi, saepe eius totam debitis voluptatum odit consequuntur dolorum quo laudantium dolorem,</p>
-            <div className='flex flex-col sm:flex-row gap-4 flex-wrap mt-5'>
+            <div className='flex flex-col sm:flex-row gap-4 flex-wrap mt-5 w-10/11'>
               <button className='cursor-pointer px-8 mx-2 py-3 bg-blue-700 text-white rounded-md hover:bg-blue-900'>Start Free Trial</button>
               <button className='cursor-pointer px-8 mx-2 py-3 bg-white border-2 border-blue-700 rounded-md text-blue-700 hover:bg-blue-100 hover:text-blue-900 hover:border-blue-900'>Watch Demo</button>
             </div>
