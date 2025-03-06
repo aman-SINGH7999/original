@@ -31,7 +31,7 @@ export default function Navbar() {
       </div>
       {
         open
-        ? <div className='absolute top-15 flex flex-col gap-5 mx-10 text-sm lg:hidden text-blue-900 bg-white px-10 py-3'>
+        ? <div className='absolute top-15 flex flex-col gap-5 mx-10 text-sm lg:hidden text-blue-900 bg-white z-20 px-10 py-3'>
               <Link href={"/about"} scroll={true} className='hover:text-blue-400'>About</Link>
               <Link href={"/services"} scroll={true} className='hover:text-blue-400'>Services</Link>
               <Link href={"/technologies"} scroll={true} className='hover:text-blue-400'>Technologies</Link>
