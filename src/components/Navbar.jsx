@@ -26,9 +26,9 @@ export default function Navbar() {
               <Link href={"/blog"} scroll={true} className='hover:text-blue-400'>Blog</Link>
               <Link href={"/carrers"} scroll={true} className='hover:text-blue-400'>Carrers</Link>
           </div>
-          <div>
+          <Link href={"/login"}>
             <button className='hidden md:flex flex-row gap-2 items-center py-2 px-4 rounded-2xl text-sm cursor-pointer hover:bg-gray-300 hover:text-blue-400'>< RiUser3Fill />Login</button>
-          </div>
+          </Link>
         </div>
         {
           open
@@ -41,7 +41,9 @@ export default function Navbar() {
                 <Link href={"/blog"} scroll={true} className='hover:text-blue-400'>Blog</Link>
                 <Link href={"/carrers"} scroll={true} className='hover:text-blue-400'>Carrers</Link>
                 <hr />
-                <button className='flex flex-row gap-2 items-center text-sm cursor-pointer hover:text-blue-400'>< RiUser3Fill />Login</button>
+                <Link href={"/login"}>
+                    <button className='flex flex-row gap-2 items-center text-sm cursor-pointer hover:text-blue-400'>< RiUser3Fill />Login</button>
+                </Link>
             </div>
           : null
         }
