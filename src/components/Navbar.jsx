@@ -15,7 +15,9 @@ export default function Navbar() {
           open ? < RxCross1 className='mr-4 text-5xl sm:text-3xl block lg:hidden text-blue-900' onClick={()=>setOpen(!open)}/>
           : < HiMiniBars3 className='mr-4 text-5xl sm:text-3xl block lg:hidden text-blue-900' onClick={()=>setOpen(!open)}/>
         }
-        <Image src="/logo-name.png" width={200} height={100} alt='logo' />
+        <Link href={"/"} scroll={true} className='hover:text-blue-400'>
+            <Image src="/logo-name.png" width={200} height={100} alt='logo' />
+        </Link>
         <div className='flex flex-row lg:justify-between justify-end items-center w-full text-blue-900'>
           <div className='lg:flex flex-row gap-5 mx-10 text-sm hidden'>
               <Link href={"/about"} scroll={true} className='hover:text-blue-400'>About</Link>
